@@ -26,17 +26,13 @@ alias vup='vagrant up --provision'
 #
 alias ans="cd ~/git/ansible"
 alias ttam='cd ~/git/current'
-alias gc="cd ~/git/configs"
+alias gc="cd ~/git/config"
 
 
 # includes
 #
-source ~/.git-prompt.sh
-source ~/git-completion.bash
-if [ -f `brew --prefix`/etc/bash_completion.d/vagrant ]; then
-        source `brew --prefix`/etc/bash_completion.d/vagrant
-fi
-
+source ~/.git-completion.bash
+source ~/.vagrant-completion.bash
 
 #
 # functions
