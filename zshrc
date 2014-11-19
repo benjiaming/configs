@@ -27,4 +27,4 @@ zstyle ':vcs_info:*' formats \
 
   precmd () { vcs_info }
   PROMPT='%F{2}%n%{$reset_color%}@%{$fg[cyan]%}%m:%F{3}%3~ %{$reset_color%}> '
-  RPROMPT='${vcs_info_msg_0_} %f%# '
+  RPROMPT='${vcs_info_msg_0_}'
