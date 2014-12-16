@@ -19,6 +19,7 @@ alias grpo='git remote prune origin'
 alias gs="git status"
 alias ll='ls -lahF'
 alias l='ll'
+alias pshs='python -m SimpleHTTPServer 8080'
 alias resource='source ~/.bashrc'
 alias tei="touch_and_edit_in_idea"
 alias vp='vagrant provision'
