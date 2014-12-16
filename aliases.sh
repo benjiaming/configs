@@ -12,6 +12,7 @@ alias ez="vi ~/.zshrc"
 alias fgr="find .| grep -i --color"
 alias ga="git add"
 alias gh="history | grep --color"
+alias gid="git diff"
 alias gis="git status"
 alias gp="git pull"
 alias grpo='git remote prune origin'
