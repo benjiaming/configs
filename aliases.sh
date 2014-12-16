@@ -3,7 +3,7 @@
 #
 alias anscheck="ansible-playbook --syntax-check --list-tasks"
 alias anv="ansible-playbook -i .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory --private-key=~/.ssh/ansible-insecure"
-alias ea="vi ~/git/config/aliases"
+alias ea="vi ~/git/configs/aliases.sh"
 alias ei="edit_in_idea"
 alias eb="vi ~/.bashrc"
 alias eg="vi ~/.gitconfig"

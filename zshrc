@@ -1,4 +1,4 @@
-source ~/git/configs/aliases.sh
+source ~/git/configs/includes.sh
 
 alias resource="source ~/.zshrc"
 
@@ -25,6 +25,11 @@ zstyle ':vcs_info:*' formats \
   }
 
 
-  precmd () { vcs_info }
-  PROMPT='%F{2}%n%{$reset_color%}@%{$fg[cyan]%}%m:%F{3}%3~ %{$reset_color%}> '
-  RPROMPT='${vcs_info_msg_0_}'
+precmd () { vcs_info }
+PROMPT='%F{2}%n%{$reset_color%}@%{$fg[cyan]%}%m:%F{3}%3~ %{$reset_color%}> '
+RPROMPT='${vcs_info_msg_0_}'
+
+bindkey    "^[[3~"          delete-char
+bindkey    "^[3;5~"         delete-char
+bindkey    "^[[H"           beginning-of-line
+bindkey    "^[[F"           end-of-line

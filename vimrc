@@ -23,3 +23,4 @@ set nobackup
 set nowb
 set noswapfile
 
+set background=dark
